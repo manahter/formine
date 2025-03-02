@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Genel Scrollbar Stili */
+::-webkit-scrollbar {
+    width: 6px;
+    /* Scrollbar'ın genişliği */
+    height: 6px;
+    /* Yatay scrollbar için yükseklik */
+}
+
+/* Scrollbar'ın iz kısmı (Track) */
+::-webkit-scrollbar-track {
+    background-color: #8882;
+    /* Arka plan rengi */
+    border-radius: 6px;
+    /* Kenar yuvarlama */
+    margin: 4px;
+    /* Kenardan boşluk */
+}
+
+/* Scrollbar'ın parmak (Thumb) kısmı */
+::-webkit-scrollbar-thumb {
+    background-color: #8886;
+    /* Parmağın rengi */
+    border-radius: 6px;
+    /* Parmağın kenar yuvarlama */
+}
+
+/* Scrollbar parmağına hover efekti */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888f;
+    /* Hover durumunda parmak rengi değişir */
+}
+
+/* Scrollbar yatay ve dikey birlikte */
+::-webkit-scrollbar-horizontal {
+    height: 6px;
+    /* Yatay scrollbar için yükseklik */
+}
+
+::-webkit-scrollbar-vertical {
+    width: 6px;
+    /* Dikey scrollbar için genişlik */
+}

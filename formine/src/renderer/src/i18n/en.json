@@ -1,0 +1,11 @@
+{
+    "welcome": "Welcome to our application",
+    "login": {
+      "username": "Username",
+      "password": "Password"
+    },
+    "Select Form": "Select Form",
+    "Open File": "Open File",
+    "created_message": "{{item}} created"
+  }
+  

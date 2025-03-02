@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pypdf
+pandas
+openpyxl
+pywin32
+pyinstaller
+darkdetect
+psutil
